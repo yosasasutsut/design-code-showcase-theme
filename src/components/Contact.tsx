@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Send, Clock } from "lucide-react";
+import { Mail, Phone, Send, Clock } from "lucide-react";
 
 export const Contact = () => {
   return (
@@ -35,7 +35,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Email Us</h4>
-                  <p className="text-slate-600">contact@bestcyberconsulting.com</p>
+                  <p className="text-slate-600">contact@bestcyber.org</p>
                 </div>
               </div>
 
@@ -45,17 +45,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Call Us</h4>
-                  <p className="text-slate-600">+1 (555) 123-CYBER</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center">
-                  <MapPin className="h-6 w-6 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Visit Us</h4>
-                  <p className="text-slate-600">123 Technology Drive, Innovation District, DC 20001</p>
+                  <p className="text-slate-600">090-019-8880</p>
                 </div>
               </div>
 
@@ -65,7 +55,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900">Business Hours</h4>
-                  <p className="text-slate-600">Mon - Fri: 8:00 AM - 6:00 PM EST</p>
+                  <p className="text-slate-600">Mon - Fri: 8:00 AM - 6:00 PM (Bangkok Time)</p>
                 </div>
               </div>
             </div>

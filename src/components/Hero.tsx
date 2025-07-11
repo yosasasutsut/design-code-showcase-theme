@@ -54,38 +54,12 @@ export const Hero = () => {
 
           <div className="relative animate-fade-in">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-slate-600/10 rounded-3xl blur-3xl"></div>
-            <div className="relative bg-white border border-slate-200 rounded-3xl p-8 shadow-2xl">
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <div className="h-3 w-3 rounded-full bg-red-500"></div>
-                  <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
-                  <div className="h-3 w-3 rounded-full bg-green-500"></div>
-                </div>
-                
-                <div className="space-y-4">
-                  <div className="h-4 bg-slate-200 rounded w-3/4"></div>
-                  <div className="h-4 bg-slate-200 rounded w-1/2"></div>
-                  
-                  <div className="bg-slate-50 rounded-xl p-6 space-y-3">
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                        <Zap className="h-4 w-4 text-white" />
-                      </div>
-                      <div className="h-3 bg-slate-200 rounded flex-1"></div>
-                    </div>
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="h-16 bg-blue-100 rounded-lg"></div>
-                      <div className="h-16 bg-slate-100 rounded-lg"></div>
-                    </div>
-                  </div>
-                  
-                  <div className="grid grid-cols-3 gap-2">
-                    <div className="h-6 bg-slate-200 rounded"></div>
-                    <div className="h-6 bg-blue-200 rounded"></div>
-                    <div className="h-6 bg-slate-200 rounded"></div>
-                  </div>
-                </div>
-              </div>
+            <div className="relative">
+              <img 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+                alt="Modern web development workspace"
+                className="rounded-3xl shadow-2xl"
+              />
             </div>
           </div>
         </div>

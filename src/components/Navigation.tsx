@@ -12,8 +12,12 @@ export const Navigation = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-slate-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">BC</span>
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/1a94a57b-e702-4c17-be4c-2bb29eef491d.png" 
+                alt="Bestcyber Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground">Bestcyber</span>

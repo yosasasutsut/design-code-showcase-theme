@@ -62,7 +62,7 @@ export const About = () => {
               <Badge className="bg-blue-100 text-blue-800">Government Certified</Badge>
               <Badge className="bg-slate-100 text-slate-800">ISO 27001</Badge>
               <Badge className="bg-blue-100 text-blue-800">HIPAA Compliant</Badge>
-              <Badge className="bg-slate-100 text-slate-800">SOC 2 Certified</Badge>
+              <Badge className="bg-slate-100 text-slate-800">Security Certified</Badge>
             </div>
           </div>
 
