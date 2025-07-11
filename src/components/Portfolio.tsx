@@ -17,7 +17,7 @@ export const Portfolio = () => {
     {
       title: "Healthcare Management System",
       description: "HIPAA-compliant patient management and scheduling system for medical facilities",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1599045118108-bf9954418b76?w=600&h=400&fit=crop",
       tags: ["Next.js", "TypeScript", "MongoDB", "Healthcare"],
       category: "Private Sector",
       icon: <Building className="h-4 w-4" />
@@ -25,7 +25,7 @@ export const Portfolio = () => {
     {
       title: "Mobile Banking App",
       description: "Secure mobile banking application with biometric authentication and real-time transactions",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1571867424488-4565932edb41?w=600&h=400&fit=crop",
       tags: ["React Native", "Firebase", "Encryption", "FinTech"],
       category: "Mobile App",
       icon: <Smartphone className="h-4 w-4" />
@@ -49,7 +49,7 @@ export const Portfolio = () => {
     {
       title: "Document Management System",
       description: "Secure document storage and workflow management for federal agency",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?w=600&h=400&fit=crop",
       tags: ["Angular", "Node.js", "Azure", "Compliance"],
       category: "Government",
       icon: <Building className="h-4 w-4" />
