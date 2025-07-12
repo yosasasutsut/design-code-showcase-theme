@@ -1,11 +1,41 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "bestcyber-software-house",
+  "version": "1.0.0",
+  "description": "BestCyber Software House - ผู้เชี่ยวชาญด้านการพัฒนาซอฟต์แวร์ เว็บแอปพลิเคชัน และระบบดิจิทัล บริการครบวงจรสำหรับธุรกิจ",
+  "keywords": [
+    "software house",
+    "software development",
+    "web development",
+    "mobile app",
+    "digital transformation",
+    "IT solutions",
+    "custom software",
+    "thailand",
+    "พัฒนาซอฟต์แวร์",
+    "เว็บแอปพลิเคชัน",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "shadcn/ui"
+  ],
+  "author": {
+    "name": "BestCyber Software House",
+    "email": "info@bestcyber.org",
+    "url": "https://bestcyber.org"
+  },
+  "homepage": "https://bestcyber.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosasasutsut/design-code-showcase-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yosasasutsut/design-code-showcase-theme/issues"
+  },
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
